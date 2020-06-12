@@ -7,7 +7,7 @@ using static Domain.Models.CarAds.CarAdFakes.Data;
 
 namespace Domain.Models.Dealers
 {
-    class DealerFakes
+    public class DealerFakes
     {
         public static class Data
         {
