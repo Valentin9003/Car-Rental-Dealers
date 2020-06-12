@@ -2,14 +2,11 @@
 using Domain.Factories.Dealers;
 using FluentAssertions;
 using Microsoft.Extensions.DependencyInjection;
-using System;
-using System.Collections.Generic;
-using System.Text;
 using Xunit;
 
 namespace Domain
 {
-   public class DomainConfigurationSpecs
+    public class DomainConfigurationSpecs
     {
         [Fact]
         public void AddDomainShouldRegisterFactories()
