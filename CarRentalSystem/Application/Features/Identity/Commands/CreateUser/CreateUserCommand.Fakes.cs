@@ -1,7 +1,6 @@
 ﻿using Bogus;
-using Application.Features.Identity.Commands.CreateUser;
 
-namespace CarRentalSystem.Application.Features.Identity.Commands.CreateUser
+namespace Application.Features.Identity.Commands.CreateUser
 {
     public class CreateUserCommandFakes
     {

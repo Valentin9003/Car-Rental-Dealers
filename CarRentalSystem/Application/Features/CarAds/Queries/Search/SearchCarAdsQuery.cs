@@ -5,7 +5,7 @@ using Application.Features.CarAds.Queries.Common;
 using Application.Features.CarAds.Queries.Search;
 using MediatR;
 
-namespace CarRentalSystem.Application.Features.CarAds.Queries.Search
+namespace Application.Features.CarAds.Queries.Search
 {
     public class SearchCarAdsQuery : CarAdsQuery, IRequest<SearchCarAdsOutputModel>
     {
