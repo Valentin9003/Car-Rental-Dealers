@@ -2,7 +2,7 @@
 
 namespace Domain.Factories.Dealers
 {
-    public class Dealerfactory: IDealerFactory
+    internal class DealerFactory : IDealerFactory
     {
         private string dealerName = default!;
         private string dealerPhoneNumber = default!;
